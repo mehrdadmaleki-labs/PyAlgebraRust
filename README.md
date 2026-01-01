@@ -38,8 +38,13 @@ PyAlgebraRust is a Python library implemented in Rust that provides fast, safe, 
 
 ---
 
-## 📦 Installation
+---
 
-### From PyPI (planned)
-```bash
-pip install pyalgebrarust
+## 🧑‍💻 Example Usage
+
+```python
+import pyalgebrarust as alg
+
+# Computed fully in Rust using async Tokio and parallel execution
+x = alg.factorial_parallel(300)
+print(x)
