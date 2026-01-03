@@ -67,7 +67,7 @@ maturin develop --release
 
 ## 🧑‍💻 Example Usage
 
-```python
+python
 import pyalgebrarust as alg
 
 # Computed fully in Rust using async Tokio and parallel execution
