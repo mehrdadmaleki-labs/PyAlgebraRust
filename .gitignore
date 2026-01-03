@@ -23,3 +23,12 @@ target
 # macOS
 .DS_Store
 **/.DS_Store
+
+# Rust lockfile (ignore for libraries)
+Cargo.lock
+
+# Rust build artifacts
+/target/
+
+# Maturin wheels
+target/wheels/

@@ -1,11 +1,11 @@
 [package]
-name = "linalg-lib"
+name = "pyalgebrarust"
 version = "0.1.0"
 edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-name = "linalg_lib"
+name = "pyalgebrarust"
 crate-type = ["cdylib"]
 
 [dependencies]
