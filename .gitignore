@@ -32,3 +32,7 @@ Cargo.lock
 
 # Maturin wheels
 target/wheels/
+
+# Editor backup files
+*~
+
